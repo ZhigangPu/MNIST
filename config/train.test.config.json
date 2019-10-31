@@ -1,0 +1,21 @@
+{
+  "config_model": "./config/model.config.json",
+  "config_train_data": "./config/train.data.config.json",
+  "config_test_data": "./config/test.data.config.json",
+
+  "cuda": false,
+  "uniform_unit": 0.1,
+  "lr": 0.001,
+  "lr_decay": 0.5,
+  "batch_size": 20,
+  "valid_batch_size": 1000,
+  "max_patience": 5,
+  "max_lr_decay_num": 5,
+
+  "iter_interval": 10,
+  "valid_interval": 500,
+
+  "max_epoch": 20,
+
+  "save_path": "./result/"
+}

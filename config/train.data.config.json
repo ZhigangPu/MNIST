@@ -1,0 +1,5 @@
+{
+  "image_url": "./data/train-images-idx3-ubyte.gz",
+  "label_url": "./data/train-labels-idx1-ubyte.gz",
+  "local_data_dir": "./data/"
+}
