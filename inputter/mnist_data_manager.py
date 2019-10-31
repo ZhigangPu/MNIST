@@ -95,6 +95,6 @@ class MNISTDataManager(DataManager):
             if sample_num == batch_size:
                 yield (labels, images)
                 labels, images, sample_num = reset()
-            labels.append(sample[0])
-            images.append(sample[1])
+            labels.append(sample[0].astype(np.double))  # TODO: preprocess data type in a smarter and elegant way
+            images.append(sample[1].astype(np.double))
             sample_num += 1
